@@ -83,7 +83,7 @@ python main.py
 > * Playwright browser binaries (`playwright install`)
 
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 Perscrutator is intended for **authorized security testing, education, and research purposes only**.
 
