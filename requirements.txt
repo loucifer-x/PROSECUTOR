@@ -1,0 +1,6 @@
+beautifulsoup4
+httpx
+playwright
+requests
+rich
+urllib3
