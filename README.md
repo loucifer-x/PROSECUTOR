@@ -10,8 +10,9 @@ It is designed to discover web application attack surfaces, analyze inputs, and 
 
 The project uses an addon-based architecture, allowing new scanners to be added without modifying the core engine.
 <div align="center">
-  <img src="asset.png" width="1000" alt="PROSECUTOR demo" />
+  <img src="asset.png" width="500" alt="PROSECUTOR demo" />
 </div>
+
 ---
 
 ## Features
