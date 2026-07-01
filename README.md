@@ -48,7 +48,7 @@ The project uses an addon-based architecture, allowing new scanners to be added 
 - Inspects HTTP response headers
 - Detects missing or insecure security configurations
 - Reports recommended header policies
-
+---
 ##  Installation
 
 Clone the repository:
@@ -58,7 +58,7 @@ git clone https://github.com/loucifer-x/PROSECUTOR.git
 cd PROSECUTOR
 ```
 
-Install the required Python dependencies:
+Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -70,19 +70,27 @@ Install the Playwright browser binaries:
 playwright install
 ```
 
-Run the tool:
+## Prerequisites
+
+This project requires an **ngrok** tunnel for features that rely on receiving HTTP callbacks.
+
+1. Download and install **ngrok**.
+2. Authenticate your ngrok client with your account.
+3. Start a tunnel to your local listener (replace `<PORT>` with the port your application uses):
+
+```bash
+ngrok http <PORT>
+```
+
+4. Copy the generated public URL and configure the application to use it.
+
+## Running
 
 ```bash
 python main.py
 ```
 
-> **Requirements**
->
-> * Python 3.10+
-> * Internet connection
-> * Playwright browser binaries (`playwright install`)
-
-
+---
 ##  Disclaimer
 
 Perscrutator is intended for **authorized security testing, education, and research purposes only**.
