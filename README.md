@@ -72,7 +72,7 @@ playwright install
 
 ## Prerequisites
 
-This project requires an **ngrok** tunnel for features that rely on receiving HTTP callbacks.
+This project(SSRF SCANNER) requires an **ngrok** tunnel for features that rely on receiving HTTP callbacks.
 
 1. Download and install **ngrok**.
 2. Authenticate your ngrok client with your account.
