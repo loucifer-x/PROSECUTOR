@@ -32,7 +32,7 @@ The project uses an addon-based architecture, allowing new scanners to be added 
 
 ### Server-Side Request Forgery (SSRF)
 - Injects URL-based payloads into potential SSRF parameters
-- Tests server-side request behavior
+- Tests server-side request behavior using ngrok
 - Supports out-of-band callback verification
 
 ### Cross-Site Scripting (XSS)
