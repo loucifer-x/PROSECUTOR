@@ -9,7 +9,9 @@ Perscrutator is a modular web security scanner written in Python.
 It is designed to discover web application attack surfaces, analyze inputs, and run security checks through dynamically loaded scanner modules.
 
 The project uses an addon-based architecture, allowing new scanners to be added without modifying the core engine.
-
+<div align="center">
+  <img src="asset.png" width="1000" alt="PROSECUTOR demo" />
+</div>
 ---
 
 ## Features
