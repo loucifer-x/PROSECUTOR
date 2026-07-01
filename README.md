@@ -49,6 +49,38 @@ The project uses an addon-based architecture, allowing new scanners to be added 
 - Detects missing or insecure security configurations
 - Reports recommended header policies
 
+##  Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/loucifer-x/PROSECUTOR.git
+cd PROSECUTOR
+```
+
+Install the required Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Install the Playwright browser binaries:
+
+```bash
+playwright install
+```
+
+Run the tool:
+
+```bash
+python main.py
+```
+
+> **Requirements**
+>
+> * Python 3.10+
+> * Internet connection
+> * Playwright browser binaries (`playwright install`)
 
 
 ## ⚠️ Disclaimer
