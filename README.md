@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![Security](https://img.shields.io/badge/security-research-red)
 
-Perscrutator is a modular web security scanner written in Python.
+prosecutor is a modular web security scanner written in Python.
 
 It is designed to discover web application attack surfaces, analyze inputs, and run security checks through dynamically loaded scanner modules.
 
